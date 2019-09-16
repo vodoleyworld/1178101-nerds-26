@@ -6,10 +6,10 @@
   </head>
 <body>
  <header class="main-header">
-	<a href="index.html">
-		<img class="logo" src="img/nerds-logo.svg" width="160" height="65" alt="Нёрдс">
-	</a>
     <nav class="main-nav">
+    	 <a href="index.html">
+		 <img class="logo" src="img/nerds-logo.svg" width="160" height="65" alt="студия Нёрдс">
+	        </a>
 		<ul>
 			<li><a href="#studio">СТУДИЯ</a></li>
 			<li><a href="#">КЛИЕНТЫ</a></li>
@@ -104,6 +104,29 @@
 	  	</div>
 	  	  <img src="img/map.jpg" alt="191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8" class="map" width="1440" height="416">
 	  </aside>
+	    <section class="appointment">
+	    	<h2>Напишите Нам</h2>
+	    	<form action="https://echo.htmlacademy.ru" class="appointment-form" method="post">
+	    		<p class="appointment-item">
+	    			<label for="appointment-name">
+	    				 Ваше имя:
+	    				<input type="text" name="name" id="appointment-name" placeholder="Имя Фамилия" required>
+	    			</label>
+	    		</p>
+	    		<p class="appointment-item">
+	    			<label for="appointment-email">   Ваш e-mail:
+	    				<input type="email" name="email" id="appointment-email" placeholder="email@example.com" required>
+	    			</label>
+	    		</p>
+	    		<p class="appointment-item">
+	    			<label for="appointment-letter"> Текст письма:
+	    				<textarea name="letter" id="appointment-letter" rows="5" required>В свободной форме</textarea>
+	    			</label>
+	    		</p>
+	    		  <button class="button" type="submit">ОТПРАВИТЬ</button>
+	    	</form>
+	    	  <button class="modal-close" type="button">Закрыть</button>
+	    </section>
  </main>   
   <footer>
 	 <h3>Давайте дружить, это выгодно!</h3>

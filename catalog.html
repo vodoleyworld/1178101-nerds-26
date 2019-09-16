@@ -6,10 +6,9 @@
   </head>
 <body>
  <header class="main-header">
-	<a href="index.html">
-		<img class="logo" src="img/nerds-logo.svg" width="160" height="65" alt="Нёрдс">
-	</a>
-    <nav class="main-nav">
+	<nav class="main-nav">
+		  <a href="index.html">
+		  <img class="logo" src="img/nerds-logo.svg" width="160" height="65" alt="студия Нёрдс"></a>
 		<ul>
 			<li><a href="index.html">СТУДИЯ</a></li>
 			<li><a href="#">КЛИЕНТЫ</a></li>
@@ -20,33 +19,40 @@
     </nav>
  </header>
  <main>
- 	 <h2>МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</h2>
+ 	 <h1>МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</h1>
  	 <section class="filters">
- 		 <div class="sort">***БЛОК СОРТИРОВКИ***</div>
- 		 <div class="price">***Фильтр по цене***</div>
- 		  <!-- <div class="grid">
- 			<form action="" method="post">
- 				<p>Сетка:</p>
- 			   <label>Адаптивная</label>
-             <input type="radio" name="adaptive" value="1">
-              <label>Фиксированная</label>
-             <input type="radio" name="fixed" value="0">
-              <label>Резиновая</label>
-             <input type="radio" name="liquid" value="0">
-                <p>Особенности:</p>
- 			   <label>Слайдер</label>
-             <input type="radio" name="slider" value="1">
-              <label>Блок преимуществ</label>
-             <input type="radio" name="advantage" value="0">
-              <label>Новости</label>
-             <input type="radio" name="news" value="0">
-              <label>Галерея</label>
-             <input type="radio" name="gallery" value="0">
-              <label>Корзина</label>
-             <input type="radio" name="cart" value="0">
-             <input type="submit" value="ПОКАЗАТЬ">
+ 	 	      <h2 class="visually-hidden">Фильтр Шаблонов</h2>
+ 		    <form action="https://echo.htmlacademy.ru" method="get">
+ 		    	<fieldset class="sort">
+ 		    		<legend>***БЛОК СОРТИРОВКИ***</legend>
+ 		    	</fieldset>
+ 		        <fieldset class="price">
+ 		        	<legend>***Фильтр по цене***</legend>
+ 		        </fieldset>
+ 		        <fieldset class="grid">
+ 				<legend> Сетка:</legend>
+ 			   <label>Адаптивная
+             <input type="radio" name="adaptive" checked></label>
+              <label>Фиксированная
+             <input type="radio" name="fixed"></label>
+              <label>Резиновая
+             <input type="radio" name="liquid"></label>
+                </fieldset>
+                <fieldset class="specialty">
+                <legend> Особенности:</legend>
+ 			   <label>Слайдер
+             <input type="checkbox" name="slider" checked></label>
+              <label>Блок преимуществ
+             <input type="checkbox" name="advantage"></label>
+              <label>Новости
+             <input type="checkbox" name="news" checked></label>
+              <label>Галерея
+             <input type="checkbox" name="gallery"></label>
+              <label>Корзина
+             <input type="checkbox" name="cart"></label>
+              </fieldset>
+             <button type="submit">ПОКАЗАТЬ</button>
             </form>
-           </div> -->
  	 </section>
  	   <section class="items-table">
  	   	  <table>
@@ -81,6 +87,29 @@
 	  	</div>
 	  	  <img src="img/map.jpg" alt="191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8" class="map" width="1440" height="416">
 	  </aside>
+	  <section class="appointment">
+	    	<h2>Напишите Нам</h2>
+	    	<form action="https://echo.htmlacademy.ru" class="appointment-form" method="post">
+	    		<p class="appointment-item">
+	    			<label for="appointment-name">
+	    				 Ваше имя:
+	    				<input type="text" name="name" id="appointment-name" placeholder="Имя Фамилия">
+	    			</label>
+	    		</p>
+	    		<p class="appointment-item">
+	    			<label for="appointment-email">   Ваш e-mail:
+	    				<input type="email" name="email" id="appointment-email" placeholder="email@example.com">
+	    			</label>
+	    		</p>
+	    		<p class="appointment-item">
+	    			<label for="appointment-letter"> Текст письма:
+	    				<textarea name="letter" id="appointment-letter" rows="5">В свободной форме</textarea>
+	    			</label>
+	    		</p>
+	    		  <button class="button" type="submit">ОТПРАВИТЬ</button>
+	    	</form>
+	    	  <button class="modal-close" type="button">Закрыть</button>
+	    </section>
  </main>   
   <footer>
 	<h2>Давайте дружить, это выгодно!</h2>
