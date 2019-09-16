@@ -27,29 +27,29 @@
  		    		<legend>***БЛОК СОРТИРОВКИ***</legend>
  		    	</fieldset>
  		        <fieldset class="price">
- 		        	<legend>***Фильтр по цене***</legend>
+ 		       	 	<legend>***Фильтр по цене***</legend>
  		        </fieldset>
  		        <fieldset class="grid">
  				<legend> Сетка:</legend>
- 			   <label>Адаптивная
-             <input type="radio" name="adaptive" checked></label>
-              <label>Фиксированная
-             <input type="radio" name="fixed"></label>
-              <label>Резиновая
-             <input type="radio" name="liquid"></label>
+ 			   <label for="adaptive">Адаптивная</label>
+             <input type="radio" name="adaptive" checked>
+              <label for="fixed">Фиксированная</label>
+             <input type="radio" name="fixed">
+              <label for="liquid">Резиновая</label>
+             <input type="radio" name="liquid">
                 </fieldset>
                 <fieldset class="specialty">
                 <legend> Особенности:</legend>
- 			   <label>Слайдер
-             <input type="checkbox" name="slider" checked></label>
-              <label>Блок преимуществ
-             <input type="checkbox" name="advantage"></label>
-              <label>Новости
-             <input type="checkbox" name="news" checked></label>
-              <label>Галерея
-             <input type="checkbox" name="gallery"></label>
-              <label>Корзина
-             <input type="checkbox" name="cart"></label>
+ 			   <label for="slider">Слайдер</label>
+             <input type="checkbox" name="slider" checked>
+              <label for="advantage">Блок преимуществ</label>
+             <input type="checkbox" name="advantage">
+              <label for="news">Новости</label>
+             <input type="checkbox" name="news" checked>
+              <label for="gallery">Галерея</label>
+             <input type="checkbox" name="gallery">
+              <label for="cart">Корзина</label>
+             <input type="checkbox" name="cart">
               </fieldset>
              <button type="submit">ПОКАЗАТЬ</button>
             </form>
@@ -90,22 +90,19 @@
 	  <section class="appointment">
 	    	<h2>Напишите Нам</h2>
 	    	<form action="https://echo.htmlacademy.ru" class="appointment-form" method="post">
-	    		<p class="appointment-item">
+	    		<div class="appointment-item">
 	    			<label for="appointment-name">
-	    				 Ваше имя:
+	    				 Ваше имя:</label>
 	    				<input type="text" name="name" id="appointment-name" placeholder="Имя Фамилия">
-	    			</label>
-	    		</p>
-	    		<p class="appointment-item">
-	    			<label for="appointment-email">   Ваш e-mail:
-	    				<input type="email" name="email" id="appointment-email" placeholder="email@example.com">
-	    			</label>
-	    		</p>
-	    		<p class="appointment-item">
-	    			<label for="appointment-letter"> Текст письма:
-	    				<textarea name="letter" id="appointment-letter" rows="5">В свободной форме</textarea>
-	    			</label>
-	    		</p>
+	    				    		</div>
+	    		<div class="appointment-item">
+	    			<label for="appointment-email">   Ваш e-mail:</label>
+	    				<input type="email" name="email" id="appointment-email" placeholder="email@example.com">	
+	    		</div>
+	    		<div class="appointment-item">
+	    			<label for="appointment-letter"> Текст письма:</label>
+	    				<textarea name="letter" id="appointment-letter" rows="5">В свободной форме</textarea>	
+	    		</div>
 	    		  <button class="button" type="submit">ОТПРАВИТЬ</button>
 	    	</form>
 	    	  <button class="modal-close" type="button">Закрыть</button>
