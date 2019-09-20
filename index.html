@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Нёрдс-Главная</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
 <body>
  <header class="main-header">
@@ -11,7 +14,7 @@
 		 <img class="logo" src="img/nerds-logo.svg" width="160" height="65" alt="студия Нёрдс">
 	        </a>
 		<ul>
-			<li><a href="#studio">СТУДИЯ</a></li>
+			<li class="main-current"><a href="#">СТУДИЯ</a></li>
 			<li><a href="#">КЛИЕНТЫ</a></li>
 			<li><a href="catalog.html">МАГАЗИН</a></li>
 			<li><a href="#contacts">КОНТАКТЫ</a></li>
@@ -20,12 +23,12 @@
     </nav>
  </header>
  <main>
-	<section>
+	<section class="slider">
 		****Здесь будет слайдер****
 	</section>
 	<section class="main-catalog">
 		<ul>
-			<li>
+			<li class="item-1">
 				<h3>ВЕБ-САЙТЫ</h3>
 				<figure>
 				 <img src="img/illustration-1.png" width="300" height="146" alt="веб-сайты">
@@ -33,9 +36,9 @@
 						Мир никогда не будет прежним после того как увидит ваш сайт!
 					</figcaption>
 				</figure>
-				<button type="button">Заказать</button>
+				<button type="button" class="button">Заказать</button>
 			</li>
-			<li>
+			<li class="item-2">
 				<h3>ПРИЛОЖЕНИЯ</h3>
 				<figure>
 					<img src="img/illustration-2.png" width="300" height="146" alt="приложения">
@@ -43,9 +46,9 @@
 						Покорите топ-10 приложений в AppStore и  Google Play
 					</figcaption>
 				</figure>
-				<button type="button">Заказать</button>
+				<button type="button" class="button">Заказать</button>
 			</li>
-			<li>
+			<li class="item-3">
 				<h3>ПРЕЗЕТАЦИИ</h3>
 				<figure>
 					<img src="img/illustration-3.png" width="300" height="146" alt="презентации">
@@ -53,12 +56,12 @@
 						Вы даже не подозреваете, насколько вы изумительны!
 					</figcaption>
 				</figure>
-				<button type="button">Заказать</button>
+				<button type="button" class="button">Заказать</button>
 			</li>
 		</ul>
 	</section>
-	<article id="studio">
-		    <span class="divede"></span>
+	<article class="studio">
+		    <hr>
          <h1>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
          <p class="principe">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</p>
           <p class="tasks">Выполняем заказы на разработку:</p>
@@ -87,10 +90,10 @@
 	  	 <hr>
 	  	     <table>
 	  	     	<tr>
-	  	     		<td><a href=""><img src="img/logo-1.png" width="199" height="68" alt="htmlacademy"></a></td>
-	  	     		<td><a href=""><img src="img/logo-2.png" width="199" height="68" alt="borodinski"></a></td>
-	  	     		<td><a href=""><img src="img/logo-3.png" width="199" height="68" alt="pink"></a></td>
-	  	     		<td><a href=""><img src="img/logo-4.png" width="199" height="68" alt="mishka"></a></td>
+	  	     		<td><a href="#"><img src="img/logo-1.png" width="199" height="68" alt="htmlacademy"></a></td>
+	  	     		<td><a href="#"><img src="img/logo-2.png" width="199" height="68" alt="borodinski"></a></td>
+	  	     		<td><a href="#"><img src="img/logo-3.png" width="199" height="68" alt="pink"></a></td>
+	  	     		<td><a href="#"><img src="img/logo-4.png" width="199" height="68" alt="mishka"></a></td>
 	  	     	</tr>
 	  	     </table>
 	  	 <hr>
@@ -101,7 +104,7 @@
 	  		<h2>NЁRDS DESIGN STUDIO</h2>
 	  		<p class="adress">191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</p>
 	  		<p class="phone">тел. +7 (812) 275-75-75</p>
-	  		<button type="button">НАПИШИТЕ НАМ</button>
+	  		<button type="button" class="button">НАПИШИТЕ НАМ</button>
 	  	</div>
 	  	  <img src="img/map.jpg" alt="191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8" class="map" width="1440" height="416">
 	  </aside>
@@ -138,9 +141,9 @@
     </div>
       <!--Потом будет таблица<table>
       	<tr>
-      		<td><a href=""><img src="img/vk-icon.svg" width="26" height="15" alt="VK"></a></td>
-      		<td><a href=""><img src="img/fb-icon.svg" width="26" height="15" alt="Facebook"></a></td>
-      		<td><a href=""><img src="img/insta-icon.svg" width="26" height="15" alt="Instagram"></a></td>
+      		<td><a href="#"><img src="img/vk-icon.svg" width="26" height="15" alt="VK"></a></td>
+      		<td><a href="#"><img src="img/fb-icon.svg" width="26" height="15" alt="Facebook"></a></td>
+      		<td><a href="#"><img src="img/insta-icon.svg" width="26" height="15" alt="Instagram"></a></td>
       	</tr>
       </table> -->
   </footer>

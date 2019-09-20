@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+  
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+/*.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}*/
+
+.main-header {
+  background-color: #eeeeee;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:focus {
+  opacity: 0.3;
+}
+
+.main-nav a:hover {
+  color: #f87f81;
+}
+
+.main-nav a:focus {
+  color: #a6a6a6;
+}
+
+.main-current a {
+  border-bottom: #fb565a solid 2px;
+}
+
+.slider {
+  background-color: #eeeeee;
+}
+
+
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+
+  background-color: #fb565a;
+  border: none;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #e74246;
+}
+
+.button:focus {
+  background-color: #d7373b;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2) inset;
+
+}
+
+.item-2 .button {
+  background-color: #00ca74;
+}
+
+.item-2 .button:hover {
+  background-color: #00bc6c;
+}
+
+.item-2 .button:focus {
+  background-color: #00aa62;
+}
+
+.item-3 .button {
+  background-color: #efc84a;
+}
+
+.item-3 .button:hover {
+  background-color: #eab534;
+}
+
+.item-3 .button:focus {
+  background-color: #e5a722;
+}
+
+.main-catalog h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+figcaption,
+.studio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+}
+
+hr {
+  border: 0;
+  border-bottom: 2px solid #eeeeee;
+  width: 1160px;
+}
+
+/*.studio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+}*/
+
+.studio h1, th{
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.tasks,
+.skills {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.procent {
+  line-height: 10px;
+  font-size: 20px;
+}
+
+.studio td {
+  line-height: 18px;
+}
+
+.urls img {
+  opacity: 0.2;
+}
+
+.urls a:hover img{
+  opacity: unset;
+}
+
+.urls a:focus img{
+  opacity: 0.1;
+}
