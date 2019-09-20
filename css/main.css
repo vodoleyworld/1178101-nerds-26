@@ -73,6 +73,7 @@ ul {
   border-radius: 5px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border: none;
 }
 
 .button:hover {
@@ -109,7 +110,7 @@ ul {
   background-color: #e5a722;
 }
 
-.main-catalog h3{
+.main-catalog h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -136,7 +137,7 @@ hr {
   text-transform: none;
 }*/
 
-.studio h1, th{
+.studio h1 {
   font-weight: 500;
   font-size: 45px;
   line-height: 45px;
@@ -148,9 +149,16 @@ hr {
   text-transform: uppercase;
 }
 
-.procent {
-  line-height: 10px;
-  font-size: 20px;
+th {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+
+sup {
+  font-size: 24px;
+  top: -0.7em;
 }
 
 .studio td {
@@ -161,10 +169,46 @@ hr {
   opacity: 0.2;
 }
 
-.urls a:hover img{
+.urls a:hover img {
   opacity: unset;
 }
 
-.urls a:focus img{
+.urls a:focus img {
   opacity: 0.1;
+}
+
+.adress-wrap h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.adress-wrap p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.friendly h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: none;
+}
+
+.friendly p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+footer td {
+  text-align: center;
+  background-color: #f5e7f7;
+  border: 2px solid #f5e7f7;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
 }
