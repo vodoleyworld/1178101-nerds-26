@@ -22,7 +22,7 @@
     </nav>
  </header>
  <main>
- 	 <h1>МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</h1>
+ 	 <h1 class="shop-title">МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</h1>
  	 <section class="filters">
  	 	      <h2 class="visually-hidden">Фильтр Шаблонов</h2>
  		    <form action="https://echo.htmlacademy.ru" method="get">
@@ -34,27 +34,47 @@
  		        </fieldset>
  		        <fieldset class="grid">
  				<legend> Сетка:</legend>
- 			   <label for="adaptive">Адаптивная</label>
-             <input type="radio" name="adaptive" id="adaptive" checked>
-              <label for="fixed">Фиксированная</label>
-             <input type="radio" name="fixed" id="fixed">
-              <label for="liquid">Резиновая</label>
-             <input type="radio" name="liquid" id="liquid">
+ 			  <ul>
+ 			   <li class="filter-option">
+ 			   	 <label for="adaptive">Адаптивная</label>
+                 <input type="radio" name="adaptive" id="adaptive" checked>
+                </li>
+               <li class="filter-option">
+                 <label for="fixed">Фиксированная</label>
+                  <input type="radio" name="fixed" id="fixed">
+                </li>
+               <li class="filter-option">
+                 <label for="liquid">Резиновая</label>
+                 <input type="radio" name="liquid" id="liquid">
+                </li>
+              </ul>
                 </fieldset>
                 <fieldset class="specialty">
                 <legend> Особенности:</legend>
- 			   <label for="slider">Слайдер</label>
-             <input type="checkbox" name="slider" id="slider" checked>
-              <label for="advantage">Блок преимуществ</label>
-             <input type="checkbox" name="advantage" id="advantage">
-              <label for="news">Новости</label>
-             <input type="checkbox" name="news" id="news" checked>
-              <label for="gallery">Галерея</label>
-             <input type="checkbox" name="gallery" id="gallery">
-              <label for="cart">Корзина</label>
-             <input type="checkbox" name="cart" id="cart">
+              <ul>
+              	 <li class="filter-option">
+ 			       <label for="slider">Слайдер</label>
+                   <input type="checkbox" name="slider" id="slider" checked>
+                  </li>
+                 <li class="filter-option">
+                   <label for="advantage">Блок преимуществ</label>
+                  <input type="checkbox" name="advantage" id="advantage">
+                  </li>
+                 <li class="filter-option">
+                 <label for="news">Новости</label>
+                 <input type="checkbox" name="news" id="news" checked>
+                 </li>
+                 <li class="filter-option">
+                 <label for="gallery">Галерея</label>
+                 <input type="checkbox" name="gallery" id="gallery">
+                 </li>
+                 <li class="filter-option">
+                  <label for="cart">Корзина</label>
+                  <input type="checkbox" name="cart" id="cart">
+                 </li>
+                </ul> 
               </fieldset>
-             <button type="submit">ПОКАЗАТЬ</button>
+             <button type="submit" class="filter-button button">ПОКАЗАТЬ</button>
             </form>
  	 </section>
  	   <section class="items-table">
@@ -74,10 +94,10 @@
  	   	  	</tr>
  	   	  </table>
  	   	    <ul class="pagination-list">
- 	   	    	<li class="pagination-item curent"><a href="#">1</a></li>
- 	   	    	<li class="pagination-item"><a href="#">2</a></li>
- 	   	    	<li class="pagination-item"><a href="#">3</a></li>
- 	   	    	<li class="pagination-item"><a href="#">СЛЕДУЮЩАЯ</a></li>
+ 	   	    	<li class="pagination-item curent button"><a href="#">1</a></li>
+ 	   	    	<li class="pagination-item button"><a href="#">2</a></li>
+ 	   	    	<li class="pagination-item button"><a href="#">3</a></li>
+ 	   	    	<li class="pagination-item button"><a href="#">СЛЕДУЮЩАЯ</a></li>
  	   	    </ul>
  	   	
  	   </section>

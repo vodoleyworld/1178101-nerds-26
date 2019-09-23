@@ -21,6 +21,7 @@ ul {
   list-style: none;
 }
 
+
 /*.visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -73,7 +74,6 @@ ul {
   border-radius: 5px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: none;
 }
 
 .button:hover {
@@ -129,13 +129,6 @@ hr {
   border-bottom: 2px solid #eeeeee;
   width: 1160px;
 }
-
-/*.studio {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: none;
-}*/
 
 .studio h1 {
   font-weight: 500;
@@ -212,3 +205,90 @@ footer td {
   height: 80px;
   border-radius: 40px;
 }
+
+.appointment {
+  text-transform: none;
+  background-color: #ffffff; 
+  box-shadow: 10px 10px 10px 10px rgba(188, 188, 188, 1);
+}
+
+.appointment h2 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.appointment label{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.appointment-item input[type="text"],
+.appointment-item input[type="email"],
+.appointment-item textarea {
+  font: inherit;
+  font-weight: 400;
+  border: 2px solid #d7dcde;
+  color: #a1a1a1;  
+}
+
+.appointment-item input:hover,
+.appointment-item textarea:hover{
+  border-color: #b4b9bb;
+}
+
+.appointment-item input:focus,
+.appointment-item textarea:focus{
+  border-color: #000000;
+  color: #444444; 
+}
+
+.modal-close {
+  background-color: #ffffff;
+  background-image: url("../img/close-cross.svg");
+  background-repeat: no-repeat;
+}
+
+.shop-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+fieldset {
+  border: none;
+}
+
+.filter-option {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+}
+
+.filter-button,
+.pagination-item {
+  background-color: #eeeeee;
+  color: #000000;
+}
+
+.filter-button:hover,
+.pagination-item:hover {
+  background-color: #dfdfdf;
+}
+
+.filter-button:focus,
+.pagination-item:focus {
+  color: #959595;
+}
+
+
+
+
