@@ -123,7 +123,7 @@ ul {
 
   background-color: #fb565a;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .button:hover {
@@ -477,12 +477,27 @@ sup {
   color: #444444; 
 }
 
-
-
 .shop-title {
+  background-color: #eeeeee;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+.shop-title h1{
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
+  text-transform: none;
+  margin: 0 auto;
+}
+
+.filters {
+  width: 260px;
+}
+
+.items-table {
+  width: 760px;
 }
 
 legend {
