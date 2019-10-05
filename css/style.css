@@ -663,11 +663,23 @@ sup {
   justify-content: space-between;
 }
 
-.sort-list li {
+.sort-list li a{
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  opacity: 0.3;
 }
+
+.sort-list li a:active,
+.sort-list li a:focus {
+  opacity: 1;
+}
+
+.sort-list li a:hover {
+  opacity: 0.6;
+}
+
+
 
 .filters {
   width: 260px;
@@ -716,10 +728,6 @@ sup {
   margin: 0;
   padding: 15px 20px;
   margin-right: 10px;
-}
-
-.pagination-item.button:active {
-  background-color: #d5d5d5;
 }
 
 .pagination-item.curent {
