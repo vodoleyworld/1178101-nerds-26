@@ -880,8 +880,7 @@ fieldset {
 }
 
 .main-list li:hover {
-  border: 0 -40px 10px 3px #d2d2d2;
-  
+  box-shadow: 0 -40px 10px #d2d2d2;  
 }
 
 
