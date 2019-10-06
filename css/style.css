@@ -871,6 +871,16 @@ fieldset {
   margin: 30px auto 45px;
 }
 
+.item-price a:hover {
+  color: #fb565a;
+}
+
+.item-price a:focus {
+  color: #b2b2b2;
+}
+
+
+
 
 .main-list li:hover::before
     {
