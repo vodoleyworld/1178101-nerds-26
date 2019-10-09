@@ -123,7 +123,7 @@
 	  	  <h2 class="visually-hidden">Секция ссылок</h2>
 	  	     <table class="container">
 	  	     	<tr>
-	  	     		<td><a href="#"><img src="img/logo-1.png" width="199" height="68" alt="htmlacademy"></a></td>
+	  	     		<td><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-1.png" width="199" height="68" alt="htmlacademy"></a></td>
 	  	     		<td><div class="td-line"></div></td>
 	  	     		<td><a href="#"><img src="img/logo-2.png" width="199" height="68" alt="borodinski"></a></td>
 	  	     		<td><div class="td-line"></div></td>
@@ -134,13 +134,13 @@
 	  	     </table>
 	  </section>
 	      <hr>
-	  <section id="contacts">
+	  <section id="contacts" class="contacts">
 	  	<img src="img/map.png" alt="191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8" class="map" width="1440" height="416">
 	  	 <div class="adress-wrap">
 	  		<h2>NЁRDS DESIGN STUDIO</h2>
 	  		<p class="adress">191186, Санкт-Петербург,<br>  ул. Б. Конюшенная, д. 19/8</p>
 	  		<p class="phone"><a href="tel:+781227575">тел. +7 (812) 275-75-75</a></p>
-	  		<button type="button" class="button">НАПИШИТЕ НАМ</button>
+	  		<button type="button" class="modal-show button">НАПИШИТЕ НАМ</button>
 	  		</div>
 	  </section>
  </main>   
@@ -157,9 +157,8 @@
 	   <p>Скидка 10% для друзей из социальных сетей</p>
 	  </div>
   </footer>
-   <section class="appointment">
+  <section class="appointment">
 	    	<h2>Напишите Нам</h2>
-	    	<div class="appointment-wrap">
 	    	<form action="https://echo.htmlacademy.ru" class="appointment-form" method="post">
 	    		<div class="appointment-item">
 	    			<label for="appointment-name">
@@ -167,17 +166,17 @@
 	    				<input type="text" name="name" id="appointment-name" placeholder="Имя Фамилия">
 	    				    		</div>
 	    		<div class="appointment-item">
-	    			<label for="appointment-email">   Ваш e-mail:</label>
+	    			<label for="appointment-email">Ваш e-mail:</label>
 	    				<input type="email" name="email" id="appointment-email" placeholder="email@example.com">	
 	    		</div>
 	    		<div class="appointment-item">
-	    			<label for="appointment-letter"> Текст письма:</label>
-	    				<textarea name="letter" id="appointment-letter" rows="3">В свободной форме</textarea>	
+	    			<label for="appointment-letter">Текст письма:</label>
+	    				<textarea name="letter" id="appointment-letter" rows="5">В свободной форме</textarea>	
 	    		</div>
 	    		  <button class="button" type="submit">ОТПРАВИТЬ</button>
 	    	</form>
-	    	</div>
 	    	  <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
 	    </section>
+	    <script src="js/main.js"></script>
 </body>
 </html>
