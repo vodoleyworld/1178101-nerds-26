@@ -262,9 +262,9 @@ input[type="radio"].visually-hidden {
 
 }
 
-.slider-item-button {
+.slider-item-button.button{
   width: 240px;
-  padding: 13px 0;
+  padding: 15px 0;
 }
 
 /*---Button---*/
@@ -362,7 +362,7 @@ figcaption,
 hr {
   border: 0;
   border-bottom: 2px solid #eeeeee;
-  width: 1160px;
+  width: 1200px;
 }
 
 /*---Studio---*/
@@ -402,12 +402,12 @@ hr {
   width: 360px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .skills-wrap th,td {
   text-align: left;
-  padding: 10px;
+  padding: 7px;
 } 
 
 
@@ -421,6 +421,10 @@ hr {
 .skills {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.skills {
+  margin: 40px auto;
 }
 
 th {
@@ -442,9 +446,21 @@ sup {
 
 /*---Urls---*/
 
-.urls-wrap {
+.urls table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.urls tr {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.td-line {
+  display: block;
+  height: 50px;
+  border: 1px solid #eeeeee;
 }
 
 .urls img {
