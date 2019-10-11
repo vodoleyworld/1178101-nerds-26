@@ -653,6 +653,20 @@ sup {
 
 .appointment-show {
   display: block;
+  animation-duration: 0.55s;
+  animation-fill-mode: both; 
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    0% {      
+        opacity: 0;
+        transform: translate3d(0px, -100%, 0px);
+    }
+    100% { 
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .modal-close {
@@ -689,17 +703,27 @@ sup {
   line-height: 45px;
 }
 
-.appointment-item:nth-child(1),
+.appointment-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 760px;
+    justify-content: space-between;
+}
+
+.appointment-item {
+  flex-basis: 360px;
+}
+
+.appointment-item:nth-child(3) {
+  flex-grow: 1;
+  margin-top: 35px;
+}
+
+/*.appointment-item:nth-child(1),
 .appointment-item:nth-child(2) {
   min-width: 360px;
   display: inline-block;
-}
-
-
-.appointment-wrap {
-  max-width: 760px;
-  margin: 0;
-}
+}*/
 
 
 .appointment label{
@@ -941,7 +965,7 @@ fieldset {
 
 .main-list li {
   width: 360px;
-  height: 615px;
+  min-height: 615px;
   margin-bottom: 30px;
   margin-right: 40px;
   position: relative;
