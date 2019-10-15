@@ -327,12 +327,18 @@ input[type="radio"].visually-hidden {
 
 .main-catalog {
  padding: 80px 0;
+ border-bottom: 2px solid #eeeeee;
 }
 
 .item figure {
   width: 300px;
   margin: 0;
   padding: 0;
+}
+
+.item .button {
+  width: 160px;
+  box-sizing: border-box;
 }
 
 .main-catalog ul {
@@ -344,6 +350,21 @@ input[type="radio"].visually-hidden {
           justify-content: space-between;
   margin: 0;
   padding: 0;
+}
+
+.item figcaption::before {
+  display: block;
+  content: url(../img/illustration-1.png);
+}
+
+.item:nth-child(2) figcaption::before {
+  display: block;
+  content: url(../img/illustration-2.png);
+}
+
+.item:nth-child(3) figcaption::before {
+  display: block;
+  content: url(../img/illustration-3.png);
 }
 
 
@@ -385,10 +406,22 @@ figcaption,
   text-transform: none;
 }
 
-hr {
+/*.main-catalog::after {
+  display: block;
+  content: "";
   border: 0;
   border-bottom: 2px solid #eeeeee;
-  width: 1200px;
+  width: 100%;
+  position: absolute;
+}
+
+.studio::after {
+  display: block;
+  content: "";
+  border: 0;
+  border-bottom: 2px solid #eeeeee;
+  width: 100%;
+  position: absolute;
 }
 
 /*---Studio---*/
@@ -401,6 +434,7 @@ hr {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 40px auto;
+  border-bottom: 2px solid #eeeeee;
 }
 
 .studio li {
@@ -474,13 +508,15 @@ th {
   font-weight: 700;
   font-size: 45px;
   line-height: 45px;
+  position: relative;
 }
 
 
 
 sup {
   font-size: 24px;
-  top: -0.7em;
+  position: absolute;
+  top: 20px;
 }
 
 .studio td {
@@ -489,12 +525,11 @@ sup {
 
 /*---Urls---*/
 
-.urls table {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.urls {
+  border-bottom: 2px solid #eeeeee;
 }
 
-.urls tr {
+.urls ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,9 +538,12 @@ sup {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0;
 }
 
-.td-line {
+.ul-line {
   display: block;
   height: 50px;
   border: 1px solid #eeeeee;
@@ -513,6 +551,8 @@ sup {
 
 .urls img {
   opacity: 0.2;
+  width: auto;
+  height: 100%;
 }
 
 .urls a:hover img,
