@@ -586,6 +586,8 @@ sup {
   font-size: 16px;
   line-height: 18px;
   text-transform: none;
+  max-width: 210px;
+
 }
 
 .adress-wrap {
@@ -613,7 +615,7 @@ sup {
 
 /*---Footer---*/
 
-.friendly h3 {
+.friendly .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 36px;
@@ -989,7 +991,7 @@ fieldset {
 }
 
 .filter-input-radio + label::before {
-  content: url(../img/radio-off.png);
+  content: url(../img/radio-off.svg);
   position: absolute;
   display: block;
   top: -2px;
@@ -998,7 +1000,7 @@ fieldset {
 }
 
 .filter-input-radio:checked + label::before {
-  content: url(../img/radio-on.png);
+  content: url(../img/radio-on.svg);
   position: absolute;
   display: block;
   top: -2px;
