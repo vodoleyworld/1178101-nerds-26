@@ -1099,20 +1099,20 @@ fieldset {
 }
 
 .main-list li:hover,
-.main-list li:focus-within {
+.main-list li:focus{
   -webkit-box-shadow: 0 -40px 10px #d2d2d2;
           box-shadow: 0 -40px 10px #d2d2d2;  
 }
 
 
 .main-list li:hover::before,
-.main-list li:focus-within::before
+.main-list li::before
     {
   opacity: 1;
 }
 
 .main-list li:hover .item-price,
-.main-list li:focus-within .item-price {
+.main-list li:focus .item-price {
   opacity: 1;
 }
 
