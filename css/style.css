@@ -1035,6 +1035,7 @@ fieldset {
   position: relative;
 }
 
+
 .main-list li::before {
   display: block;
   position: absolute;
@@ -1074,7 +1075,7 @@ fieldset {
 .item-price {
   position: absolute;
   top: 345px;
-  display: none;
+  opacity: 0;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -1112,7 +1113,7 @@ fieldset {
 
 .main-list li:hover .item-price,
 .main-list li:focus-within .item-price {
-  display: block;
+  opacity: 1;
 }
 
 .main-list li:nth-child(2n) {
