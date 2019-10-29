@@ -555,8 +555,9 @@ sup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 1440px;
   position: relative;
+  margin: auto;
 }
 
 .adress-wrap h2 {
@@ -670,7 +671,8 @@ sup {
 .appointment {
   position: fixed;
   top: 120px;
-  left: 24%;
+  left: 50%;
+  margin: 0 0 0 -460px;
 
   display: none;
 
@@ -781,6 +783,10 @@ sup {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
+}
+
+.appointment-form {
+  min-width: 760px;
 }
 
 .appointment .button {
