@@ -74,7 +74,6 @@ input[type="radio"].visually-hidden {
   background-color: #eeeeee;
   font-size: 16px;
   line-height: 30px;
-  padding-bottom: 18px;
 }
 
 .container {
@@ -108,7 +107,7 @@ input[type="radio"].visually-hidden {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding-top: 48px;
+  padding-top: 85px;
 }
 
 .site-nav {
@@ -136,6 +135,7 @@ input[type="radio"].visually-hidden {
 
 .cart {
   max-width: 120px;
+  margin-right: 45px;
 }
 
 .main-current a {
@@ -327,7 +327,7 @@ input[type="radio"].visually-hidden {
 /*---Main Catalog---*/
 
 .main-catalog {
-  padding: 80px 0;
+  padding: 75px 0;
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -346,9 +346,6 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
@@ -368,6 +365,10 @@ input[type="radio"].visually-hidden {
   content: url(../img/illustration-3.png);
 }
 
+.item:nth-child(2),
+.item:nth-child(3) {
+  margin-left: 100px;
+}
 
 .item:nth-child(2) .button {
   background-color: #00ca74;
@@ -405,24 +406,6 @@ figcaption,
   font-size: 16px;
   line-height: 24px;
   text-transform: none;
-}
-
-/*.main-catalog::after {
-  display: block;
-  content: "";
-  border: 0;
-  border-bottom: 2px solid #eeeeee;
-  width: 100%;
-  position: absolute;
-}
-
-.studio::after {
-  display: block;
-  content: "";
-  border: 0;
-  border-bottom: 2px solid #eeeeee;
-  width: 100%;
-  position: absolute;
 }
 
 /*---Studio---*/
