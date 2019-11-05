@@ -1241,12 +1241,12 @@ fieldset {
 
 .filter-button:hover,
 .pagination-item:hover,
-.filter-button:focus-within,
-.pagination-item:focus-within {
+.filter-button:focus,
+.pagination-item:focus {
   background-color: #dfdfdf;
 }
 
-.filter-button:focus,
-.pagination-item:focus {
+.filter-button:active,
+.pagination-item:active {
   color: #959595;
 }
