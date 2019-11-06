@@ -327,8 +327,6 @@ input[type="radio"].visually-hidden {
 
 .main-catalog {
   margin-top: 50px;
-  padding-bottom: 80px;
-  border-bottom: 2px solid #eeeeee;
 }
 
 .item {
@@ -349,6 +347,14 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+}
+
+.main-catalog ul::after {
+    display: block;
+    content: "";
+    width: 1160px;
+    border-bottom: 2px solid #eeeeee;
+    padding-top: 80px;
 }
 
 .item h3::before {
@@ -425,8 +431,6 @@ input[type="radio"].visually-hidden {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 40px auto;
-  padding-bottom: 50px;
-  border-bottom: 2px solid #eeeeee;
 }
 
 .studio li {
@@ -467,9 +471,6 @@ input[type="radio"].visually-hidden {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .studio-wrap ul {
@@ -498,7 +499,13 @@ td {
 
 .skills {
   text-align: center;
+  padding-top: 20px;
 }
+
+table {
+  margin-top: 15px;
+}
+
 
 th {
   font-weight: 700;
@@ -521,10 +528,6 @@ sup {
 
 /*---Urls---*/
 
-.urls {
-  border-bottom: 2px solid #eeeeee;
-}
-
 .urls ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -535,14 +538,17 @@ sup {
   -ms-flex-align: center;
   align-items: center;
   margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 0;
+  margin-bottom: 80px;
+  padding: 45px 0;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
 }
+
 
 .ul-line {
   display: block;
-  height: 50px;
-  border: 1px solid #eeeeee;
+  height: 55px;
+  border-left: 1px solid #eeeeee;
 }
 
 .urls img {
@@ -568,7 +574,8 @@ sup {
   background: url(../img/map.jpg) 50% 50% no-repeat #b5b5b5;
   box-sizing: border-box;
   position: relative;
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 35px;
 }
 
 iframe {
@@ -580,7 +587,7 @@ iframe {
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .adress-wrap p {
@@ -589,6 +596,7 @@ iframe {
   line-height: 18px;
   text-transform: none;
   max-width: 210px;
+  margin-top: 23px;
 
 }
 
@@ -629,10 +637,8 @@ iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   margin-bottom: 60px;
+  align-items: flex-end;
 }
 
 .socials ul {
@@ -887,10 +893,17 @@ textarea.no-valid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 360px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-around;
+}
+
+.sort-list li {
+  margin-left: 20px;
+}
+
+.sort-list li:nth-child(4) {
+  margin-left: 55px;
 }
 
 .sort-list li a {
@@ -1073,7 +1086,9 @@ fieldset {
   color: #666665;
   text-transform: none;
   max-width: 230px;
+  max-height: 50px;
   margin: 0 auto;
+  overflow: 0;
 }
 
 .main-list li:nth-child(1) .catalog-category,
