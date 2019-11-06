@@ -1093,7 +1093,7 @@ fieldset {
   max-width: 230px;
   max-height: 50px;
   margin: 0 auto;
-  overflow: 0;
+  overflow: hidden;
 }
 
 .main-list li:nth-child(1) .catalog-category,
